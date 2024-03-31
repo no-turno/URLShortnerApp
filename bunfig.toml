@@ -1,0 +1,9 @@
+telemetry = false
+
+[define]
+"process.env.APP_TITLE" = "$APP_TITLE"
+
+[loader]
+".db" = "sqlite"
+".js" = "js"
+".html" = "file"
